@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="chrome=1">
+    <title>百度一下 你就知道</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+<div class="wrapper">
+    <div id="s-skin-container" class="s-skin-container"></div>
+    <header>
+        <!--百度首页导航栏-->
+        <div id="s_top_wrap" class="s-top-wrap" style="left: 0">
+            <div class="s-center-box"></div>
+        </div>
+        <div class="s-upfunc-menus">
+            <!--header nav weather-->
+            <div class="s-weather-wrapper">
+                <div class="s-mod-weather s-isindex-wrap hide-weater ">
+                    <div class="unknown-city">
+                        <span class="unknown-icon"></span>
+                        <span class="unknown-text">查看天气信息，</span>
+                        <span class="unknown-setting">设置城市</span>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="s-icons">
+                <!--header nav skin-->
+
+                <a class="s-skin">
+                    <span class="title">换肤</span>
+                </a>
+                <!--header nav msg-->
+
+                <a class="s-msg">
+                    <span class="title">消息</span>
+                </a>
+                <a id="En" class="s-En">
+                    <span class="title">En</span>
+                </a>
+                <a id="Ch" class="s-Ch">
+                    <span class="title">Ch</span>
+                </a>
+            </div>
+
+
+        </div>
+        <nav>
+
+            <a href="http://news.baidu.com/" target="_blank" class="nav-news">新闻</a>
+            <a href="https://www.hao123.com/" target="_blank">hao234</a>
+            <a href="http://map.baidu.com/" target="_blank" class="nav-map" >地图</a>
+            <a href="http://v.baidu.com/" target="_blank" class="nav-video">视频</a>
+            <a href="https://tieba.baidu.com/index.html" target="_blank" class="nav-com">贴吧</a>
+            <a href="http://xueshu.baidu.com/" target="_blank" class="nav-academic">学术</a>
+a            <a href="https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F" target="_blank" class="nav-login">登陆</a>
+            <div class="dropdown">
+                <a class="dropbtn nav-more" href="http://www.baidu.com/more/" target="_blank" >更多产品</a>
+                <div class="dropdown-content">
+                    <a href="https://www.nuomi.com/?cid=002540">
+                        <img src="img/nav-icon/bdnm.png">
+                        <h4>糯米</h4>
+                    </a>
+                    <a href="http://music.baidu.com/">
+                        <img src="img/nav-icon/music.png">
+                        <h4>音乐</h4>
+                    </a>
+                    <a href="http://image.baidu.com/">
+                        <img src="img/nav-icon/image.png">
+                        <h4>图片</h4></a>
+                    <a href="https://wenku.baidu.com/">
+                        <img src="img/nav-icon/wenku.png">
+                        <h4>文库</h4>
+                    </a>
+                    <a href="https://wenku.baidu.com/">
+                        <img src="img/nav-icon/zhidao.png">
+                        <h4>知道</h4>
+                    </a>
+                    <a href="https://www.baidu.com/more/" style="height:20px; padding: 10px 0;">全部产品>></a>
+                </div>
+            </div>
+
+        </nav>
+
+        <div class="s-skin-layer">
+            <div class="s-skin-border">
+
+            </div>
+            <div class="s-skin-layer-cell show-page-0 show-nav-1000">
+                <div class="s-skin-header">
+                    <ul class="s-skin-nav">
+                        <li class="skin-nav nav-1000 choose-nav">
+                            <span class="skinnav-nav-name">
+                                热门
+                            </span>
+                        </li>
+
+                    </ul>
+                    <div class="s-skin-setting">
+                        <div id="skin-remove"  class="s-skin-up skin-bg-icon">
+                            <span class="title">remove skin</span>
+                        </div>
+                        <div class="s-skin-up skin-bg-icon">
+                            <span class="bg"></span>
+                            <span class="title">hide</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="s-skin-photo-body">
+                    <div class="s-skin-border-content">
+                        <ul class="s-skin-content">
+                            <li class="skin-type-content content-1000">
+                                <ul class="skin-img-list">
+                                    <li id="skin1" class="skin-img-item page-0 pos-0 big-img-li nav-1000     ">
+                                        <img class="skin-img-item-img" src="./img/nav-icon/skin1.jpg">
+                                        <div class="skin-img-shadow"></div>
+                                        <p class="skin-img-item-writer">摄影：天龙八部</p>
+                                    </li>
+                                    <li id="skin2"  class="skin-img-item page-0 pos-1 nav-1000     ">
+                                        <img class="skin-img-item-img" src="./img/nav-icon/skin2.jpg">
+                                        <div class="skin-img-shadow"></div>
+                                        <p class="skin-img-item-writer">摄影：天龙八部</p>
+                                    </li>
+                                    <li id="skin3"  class="skin-img-item page-0 pos-2 nav-1000     ">
+                                        <img class="skin-img-item-img" src="./img/nav-icon/skin3.jpg">
+                                        <div class="skin-img-shadow"></div>
+                                        <p class="skin-img-item-writer">摄影：天龙八部</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--手机上的百度首页header-->
+        <div class="m-header">
+            <a id="login" class="icon-login"></a>
+        </div>
+    </header>
+</div>
+<!--百度首页中间部分-->
+<div class="content">
+    <img class="bg-img" src="img/baidu_logo.jpeg" alt="百度一下">
+    <img class="m-bg-img" src="img/m-bg.png" alt="百度一下">
+
+    <form action="https://www.baidu.com/s" method="get" target="_blank">
+        <input type="text" name="wd" autofocus>
+        <button class="search-button" type="submit">百度一下</button>
+    </form>
+    <!--百度首页手机版的icon栏-->
+    <div class="ns-swipe">
+        <div class="ns-swipe-item">
+            <a class="ns-item">
+                <i class="ns-focus ns-icon"></i>
+                <span class="ns-text">关注</span>
+            </a>
+            <a href="mobile-news.html" class="ns-item">
+                <i class="ns-news ns-icon"></i>
+                <span class="ns-text">新闻</span>
+            </a>
+            <a class="ns-item">
+                <i class="ns-novel ns-icon"></i>
+                <span class="ns-text">小说</span>
+            </a>
+            <a class="ns-item">
+                <i class="ns-video ns-icon"></i>
+                <span class="ns-text">视频</span>
+            </a>
+            <a class="ns-item">
+                <i class="ns-life ns-icon"></i>
+                <span class="ns-text">糯米</span>
+            </a>
+            <a class="ns-item">
+                <i class="ns-map ns-icon"></i>
+                <span class="ns-text">地图</span>
+            </a>
+        </div>
+
+    </div>
+</div>
+
+
+<!--baidu login content-->
+<div id="s_wrap" class="s-isindex-wrap">
+    <div id="s_main">
+        <div class="s-mancacrd-main">
+            <div class="s-menu-container">
+                <div class="s-menu-gurd">
+                    <div class="s-ctner-menus">
+                        <span id="s_menu_mine" class="s-menu-item s-menu-mine s-opacity-white-background">
+                            <div class="mine-icon">
+                            </div>
+                            <div class="mine-text">
+                                我的关注
+                            </div>
+                        </span>
+                        <div class="s-menus-outer">
+                            <div class="menus-wrapper">
+                                <span id="1" class="s-menu-item current s-menu-recommend">推荐</span>
+                                <span id="2" class="s-menu-item  s-menu-nav">导航</span>
+                                <span id="3" class="s-menu-item  s-menu-video">视频</span>
+
+                            </div>
+                            <div class="s-bg-space">
+
+                            </div>
+                        </div>
+                        <span class="s-menu-setting">
+                            <div class="menu-icon"></div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!--百度我的关注-->
+
+            <div class="s-ctner-contents">
+                <div id="s-xmancard" class="s-xmancard-mine s-xmancard" style="display: none">
+                    <div class="s-mine-wrapper">
+                        <div id="s-mblock-up" class="s-code-blocks s-block-nav ">
+                            <div class="s-block-container">
+                                <div id="s-mblock-title" class="s-mblock-title">
+                                    <div class="title-content">
+                                        <div class="mine-title">
+                                            <div class="mine-title-icon">
+                                                <em></em>
+                                            </div>
+                                            <div class="mine-title-text">
+                                                我的导航
+                                            </div>
+                                            <span class="mine-title-num">(5)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="s-mblock-content" class="s-mblock-content">
+                                    <div class="nav-item">
+                                        <a class="border-for-item">
+                                            <div class="nav-del">
+                                            </div>
+                                            <img src="./img/mine-icon1.png" height="16" width="16" class="nav-icon">
+                                            <div class="nav-text">
+                                                <span class="nav-text-content">百度贴吧</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="nav-item">
+                                        <a class="border-for-item">
+                                            <div class="nav-del">
+                                            </div>
+                                            <img src="./img/mine-icon2.png" height="16" width="16" class="nav-icon">
+                                            <div class="nav-text">
+                                                <span class="nav-text-content">淘宝网</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="nav-item">
+                                        <a class="border-for-item">
+                                            <div class="nav-del">
+                                            </div>
+                                            <img src="./img/mine-icon3.png" height="16" width="16" class="nav-icon">
+                                            <div class="nav-text">
+                                                <span class="nav-text-content">新浪微博</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="nav-item">
+                                        <a class="border-for-item">
+                                            <div class="nav-del">
+                                            </div>
+                                            <img src="./img/mine-icon4.png" height="16" width="16" class="nav-icon">
+                                            <div class="nav-text">
+                                                <span class="nav-text-content">优酷网</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="nav-item nav-item-last">
+                                        <a class="border-for-item">
+                                            <div class="nav-del">
+                                            </div>
+                                            <img src="./img/mine-icon5.png" height="16" width="16" class="nav-icon">
+                                            <div class="nav-text">
+                                                <span class="nav-text-content">hao123</span>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tips-manager-area">
+                        <div id="tips-manager-btn" class="tips-manager-btn ">
+                            <span class="manager-btn-icon"></span>
+                            <span id="manager-btn-text" class="manager-btn-text">自定义</span>
+
+                        </div>
+                        <div id="sui-dialog" class="sui-prevent-wheel s-isindex-wrap sui-dialog sui-dialog-minesetting "
+                             style="width: 653px; height: auto; left: 25px; display: none; top: 31px;">
+                            <a id="sui-dialog-close" class="sui-dialog-close" hidefocus>关闭</a>
+                            <div class="sui-dialog-body">
+                                <div class="s-minesetting">
+                                    <div class="s-minesetting-wrap">
+                                        <div class="s-minesetting-left">
+                                            <h3>已关注</h3>
+                                            <div class="s-minesetting-content sui-componentWrap">
+                                                <div class="s-mod-item">
+                                                    <div class="s-mod-icon"></div>
+                                                    <div class="s-mod-title">我的导航</div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="s-minesetting-right">
+                                            <h3>未关注</h3>
+                                            <div class="s-minesetting-content sui-componentWrap">
+                                                <div class="s-mod-item">
+                                                    <div class="s-mod-icon"></div>
+                                                    <div class="s-mod-title">我的股票</div>
+                                                </div>
+                                                <div class="s-mod-item">
+                                                    <div class="s-mod-icon"></div>
+                                                    <div class="s-mod-title">我的星座</div>
+                                                </div>
+                                                <div class="s-mod-item">
+                                                    <div class="s-mod-icon"></div>
+                                                    <div class="s-mod-title">我的小说</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--百度推荐-->
+
+                <div id="s-content-1" class="s-content-1" style="display: block">
+                    <div class="s-xmancard-news s-xmancard s-news-split">
+                        <div class="s-news-wrapper">
+                            <div class="s-news-rank-wrapper s-news-special-rank-wrapper">
+                                <div class="s-rank-title">
+                                    <div class="title-text">
+                                        <a>实时热点</a>
+                                    </div>
+                                    <div class="hot-refresh">
+                                        <span class="hot-refresh-icon"></span>
+                                        <span class="hot-refresh-text">换一换</span>
+
+                                    </div>
+                                </div>
+                                <ul class="s-news-rank-content">
+                                    <li class="news-meta-item news-artist">
+                                        <span class="news-title">
+                                            <span class="title-link">
+                                                <a class="title-content">白银案嫌犯受审</a>
+                                                <span class="new-identity"></span>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="news-meta-item news-artist">
+                                        <span class="news-title">
+                                            <span class="title-link">
+                                                <a class="title-content">频向男员工发裸照</a>
+                                                <span class="new-identity"></span>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="news-meta-item news-artist">
+                                        <span class="news-title">
+                                            <span class="title-link">
+                                                <a class="title-content">巴基斯坦自杀袭击</a>
+                                                <span class="new-identity"></span>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="news-meta-item news-artist">
+                                        <span class="news-title">
+                                            <span class="title-link">
+                                                <a class="title-content">张天爱延误睡机场</a>
+                                                <span class="new-identity"></span>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="news-meta-item news-artist">
+                                        <span class="news-title">
+                                            <span class="title-link">
+                                                <a class="title-content">曝光医药广告表演</a>
+                                                <span class="new-identity"></span>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="news-meta-item news-artist">
+                                        <span class="news-title">
+                                            <span class="title-link">
+                                                <a class="title-content">冒充和尚骗香火钱</a>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="news-meta-item news-artist">
+                                        <span class="news-title">
+                                            <span class="title-link">
+                                                <a class="title-content">制售假减肥药案</a>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="news-meta-item news-artist">
+                                        <span class="news-title">
+                                            <span class="title-link">
+                                                <a class="title-content">广西边防查获象牙</a>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="news-meta-item news-artist">
+                                        <span class="news-title">
+                                            <span class="title-link">
+                                                <a class="title-content">浙江警方抓获黑客</a>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="news-meta-item news-artist">
+                                        <span class="news-title">
+                                            <span class="title-link">
+                                                <a class="title-content">最美校花超两百斤</a>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="news-meta-item news-artist">
+                                        <span class="news-title">
+                                            <span class="title-link">
+                                                <a class="title-content">黄鳝门主播被刑拘</a>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="news-meta-item news-artist">
+                                        <span class="news-title">
+                                            <span class="title-link">
+                                                <a class="title-content">男生手伸女孩被窝</a>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="news-meta-item news-artist">
+                                        <span class="news-title">
+                                            <span class="title-link">
+                                                <a class="title-content">色狼4分钟摸4女</a>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="news-meta-item news-artist">
+                                        <span class="news-title">
+                                            <span class="title-link">
+                                                <a class="title-content">僵尸之父肺癌去世</a>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="news-meta-item news-artist">
+                                        <span class="news-title">
+                                            <span class="title-link">
+                                                <a class="title-content">乐视股东大会</a>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="news-meta-item news-artist">
+                                        <span class="news-title">
+                                            <span class="title-link">
+                                                <a class="title-content">女子刷一亿礼物</a>
+                                            </span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="news-flash-tips">
+                                <div class="left-line">
+                                </div>
+                                <div class="tips-content">
+                                    <div class="tips-icon"></div>
+                                    <span>以下根据您的兴趣推荐</span>
+                                </div>
+                                <div class="right-line">
+                                </div>
+                            </div>
+                            <div class="water-container">
+                                <div class="s-news-list-wrapper">
+                                    <div class="s-news-special s-news-item s-news-special-item-tpl-1 s-opacity-blank8 first">
+                                        <h2>
+                                            <a class="s-title-yahei">安卓十大隐藏功能：原来出厂内置两个隐藏游戏</a>
+                                        </h2>
+                                        <div class="s-pic-content">
+                                            <ul class="s-news-content-imgs">
+                                                <li class="item-img-wrap">
+                                                    <a>
+                                                        <img class="s-news-img" src="./img/news1-1.jpeg" height="119"
+                                                             width="179">
+                                                    </a>
+                                                </li>
+                                                <li class="item-img-wrap">
+                                                    <a>
+                                                        <img class="s-news-img" src="./img/news1-2.jpeg" height="119"
+                                                             width="179">
+                                                    </a>
+                                                </li>
+                                                <li class="item-img-wrap">
+                                                    <a>
+                                                        <img class="s-news-img" src="./img/news1-3.jpeg" height="119"
+                                                             width="179">
+                                                    </a>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                        <div class="from">
+                                            <span class="src-net">
+                                                <a>腾讯数码</a>
+                                            </span>
+                                            <span class="src-time">07-16 01:25</span>
+
+                                        </div>
+                                    </div>
+                                    <div class="s-news-special s-news-item s-news-special-item-tpl-2 s-opacity-blank8 first">
+                                        <!--<h2>-->
+                                        <!--<a class="s-title-yahei">安卓十大隐藏功能：原来出厂内置两个隐藏游戏</a>-->
+                                        <!--</h2>-->
+                                        <div class="s-pic-content">
+                                            <div class="s-pic-content-own">
+                                                <ul class="s-news-content-imgs">
+                                                    <li class="item-img-wrap">
+                                                        <a>
+                                                            <img class="s-news-img" src="./img/news2-1.jpeg"
+                                                                 height="119" width="179">
+
+                                                        </a>
+                                                    </li>
+
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                        <div class="s-block-container">
+                                            <div class="s-block-container-own">
+                                                <div class="s-text-content">
+                                                    <h2>
+                                                        <a class="s-title-yahei">“暴走团”升级？全副武装叉车压阵 领队现身回应质疑</a>
+                                                    </h2>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="from">
+                                            <span class="src-net">
+                                                <a>参考消息</a>
+                                            </span>
+                                            <span class="src-time">07-16 01:25</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--s-content-2 start-->
+
+                <div id="s-content-2" class="s-content-2" style="display: none">
+                    <div class="s-xmancard-nav s-xmancard">
+                        <div class="nav-block-wrapper normal-patern">
+                            <div class="water-container">
+                                <div class="s-nav-wrapper s-nav-personal">
+                                    <div class="s-nav-area">
+                                        <h1>猜你喜欢</h1>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon1.png">
+                                                <span class="nav-txt">百度糯米</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/nav-icon2.png">
+                                                <span class="nav-txt">京东商城</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/nav-icon3.png">
+                                                <span class="nav-txt">1号店</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/4.png">
+                                                <span class="nav-txt">苏宁易购</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/5.png">
+                                                <span class="nav-txt">唯品会</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/6.png">
+                                                <span class="nav-txt">当当网</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/7.png">
+                                                <span class="nav-txt">电影天堂</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/8.png">
+                                                <span class="nav-txt">英雄联盟</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/9.png">
+                                                <span class="nav-txt">美剧天堂</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/10.png">
+                                                <span class="nav-txt">网游加速器</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/11.png">
+                                                <span class="nav-txt">优酷网</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/12.png">
+                                                <span class="nav-txt">爱奇艺</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/13.png">
+                                                <span class="nav-txt">网易游戏</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/14.png">
+                                                <span class="nav-txt">泰捷视频</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/19.png">
+                                                <span class="nav-txt">腾讯视频</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/15.png">
+                                                <span class="nav-txt">淘宝网</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/16.png">
+                                                <span class="nav-txt">微信</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/17.png">
+                                                <span class="nav-txt">斗鱼</span>
+                                            </a>
+
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-block">
+                                                <img src="./img/nav-icon/18.png">
+                                                <span class="nav-txt">腾讯</span>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!--s-content-2 end-->
+
+
+                <!--s-content-3 start-->
+
+                <div id="s-content-3" style="display: none">
+                    <div class="s-xmancard-video s-xmancard">
+                        <div class="watet-container">
+                            <div class="s-video-wrapper">
+                                <div class="video-col">
+                                    <div class="item-wrapper">
+                                        <div class="video-item video-item-1">
+                                            <div class="v-pic v-pic-1 pic-hover">
+                                                <div class="nointerest buzz"></div>
+                                                <div class="dustbin"></div>
+                                                <a class="pic">
+                                                    <img class="img" src="./img/video1.jpeg" width="195" height="267">
+                                                </a>
+                                                <a class="bg img-click"></a>
+                                                <a class="img-click">
+                                                    <span class="v-tag">92:29</span>
+                                                </a>
+                                                <a class=" tag-sort tag-sort4"></a>
+                                            </div>
+                                            <div class="v-txt s-opacity-background1 s-opacity-blank3">
+                                                <div class="text">
+                                                    <a>大块头有大智慧</a>
+                                                </div>
+                                                <div class="score">
+                                                        <span class="score-star">
+                                                            <span class="star-active" style="width: 40.95px"></span>
+
+                                                        </span>
+                                                    6.3
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="video-col">
+                                    <div class="item-wrapper">
+
+                                        <div class="video-item video-item-1">
+                                            <div class="v-pic v-pic-1 pic-hover">
+                                                <div class="nointerest buzz"></div>
+                                                <div class="dustbin"></div>
+                                                <a class="pic">
+                                                    <img class="img" src="./img/video2.jpeg" width="195" height="267">
+                                                </a>
+                                                <a class="bg img-click"></a>
+                                                <a class="img-click">
+                                                    <span class="v-tag">92:48</span>
+                                                </a>
+                                                <a class=" tag-sort tag-sort4"></a>
+                                            </div>
+                                            <div class="v-txt s-opacity-background1 s-opacity-blank3">
+                                                <div class="text">
+                                                    <a>百年好合</a>
+                                                </div>
+                                                <div class="score">
+                                                    <span class="score-star">
+                                                    <span class="star-active" style="width: 40.95px"></span>
+
+                                                   </span>
+                                                    5.9
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="video-col">
+                                    <div class="item-wrapper">
+
+                                        <div class="video-item video-item-2">
+                                            <div class="v-pic v-pic-2 pic-hover">
+                                                <div class="nointerest buzz"></div>
+                                                <div class="dustbin"></div>
+                                                <a class="pic">
+                                                    <img class="img" src="./img/video3.jpeg" width="195" height="101">
+                                                </a>
+                                                <a class="bg img-click"></a>
+                                                <a class="img-click">
+                                                    <span class="v-tag">03:14</span>
+                                                </a>
+                                                <!--<a class=" tag-sort tag-sort4"></a>-->
+                                            </div>
+                                            <div class="v-txt s-opacity-background1 s-opacity-blank3">
+                                                <div class="text">
+                                                    <a>小操大吐槽《小黄人》揭秘小黄人三大谜题</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-wrapper">
+
+                                        <div class="video-item video-item-2">
+                                            <div class="v-pic v-pic-2 pic-hover">
+                                                <div class="nointerest buzz"></div>
+                                                <div class="dustbin"></div>
+                                                <a class="pic">
+                                                    <img class="img" src="./img/video4.jpeg" width="195" height="101">
+                                                </a>
+                                                <a class="bg img-click"></a>
+                                                <a class="img-click">
+                                                    <span class="v-tag">01:18</span>
+                                                </a>
+                                                <!--<a class=" tag-sort tag-sort4"></a>-->
+                                            </div>
+                                            <div class="v-txt s-opacity-background1 s-opacity-blank3">
+                                                <div class="text">
+                                                    <a>印度女子遭夫家持棍殴打 原因令人愤怒</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="video-col">
+                                    <div class="item-wrapper">
+
+                                        <div class="video-item video-item-2">
+                                            <div class="v-pic v-pic-2 pic-hover">
+                                                <div class="nointerest buzz"></div>
+                                                <div class="dustbin"></div>
+                                                <a class="pic">
+                                                    <img class="img" src="./img/video5.jpeg" width="195" height="101">
+                                                </a>
+                                                <a class="bg img-click"></a>
+                                                <a class="img-click">
+                                                    <span class="v-tag">05:14</span>
+                                                </a>
+                                                <!--<a class=" tag-sort tag-sort4"></a>-->
+                                            </div>
+                                            <div class="v-txt s-opacity-background1 s-opacity-blank3">
+                                                <div class="text">
+                                                    <a>毒舌朋友和超人闺蜜，你站谁</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-wrapper">
+
+                                        <div class="video-item video-item-2">
+                                            <div class="v-pic v-pic-2 pic-hover">
+                                                <div class="nointerest buzz"></div>
+                                                <div class="dustbin"></div>
+                                                <a class="pic">
+                                                    <img class="img" src="./img/video6.jpeg" width="195" height="101">
+                                                </a>
+                                                <a class="bg img-click"></a>
+                                                <a class="img-click">
+                                                    <span class="v-tag">02:18</span>
+                                                </a>
+                                                <!--<a class=" tag-sort tag-sort4"></a>-->
+                                            </div>
+                                            <div class="v-txt s-opacity-background1 s-opacity-blank3">
+                                                <div class="text">
+                                                    <a>16岁女孩暴瘦 医生从胃部取出2公斤头发</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--s-content-3 end-->
+
+            </div>
+            <div class="top-feed">
+                <div class="to-top">
+                    <div class="icon-mask">
+                        <div class="text">Top</div>
+
+                    </div>
+                    <span id="top-icon" class="icon"></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--手机版百度首页的具体新闻内容栏-->
+<div class="rec-item">
+    <a class="inner-item">
+        <div class="text-content">
+            <h2>最新：日本签证政策又变了？要提高门槛？！</h2>
+        </div>
+        <div class="pic-content">
+            <img src="./img/pic1.jpeg">
+            <img src="./img/pic2.jpeg">
+            <img src="./img/pic3.jpeg">
+        </div>
+        <div class="news-title">
+            <span>网易新闻</span>
+            <span>06-29</span>
+        </div>
+    </a>
+</div>
+
+<footer>
+    <!--电脑版百度首页尾部-->
+    <div class="footercontent">
+        <p class="firstp">
+            <a href="https://www.baidu.com/cache/sethelp/help.html">把百度设为主页</a>
+            <a href="http://home.baidu.com/">关于百度</a>
+            <a href="http://ir.baidu.com/">About Baidu</a>
+        </p>
+        <p class="secondp">
+            ©2017 Baidu <a href="http://www.baidu.com/duty/">使用百度前必读 </a> <a href="http://jianyi.baidu.com/">意见反馈</a>
+            京ICP证030173号
+        </p>
+        <!--手机版百度首页尾部-->
+        <div class="m-footer">
+            <p class="">
+                <a href="http://www.baidu.com/duty/">使用百度前必读 </a>
+                京ICP证030173号
+            </p>
+            <a class="recordcode">
+                <i></i>
+                京公网安备11000002000001号
+            </a>
+        </div>
+
+    </div>
+</footer>
+
+<script src="jquery-3.2.1.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
